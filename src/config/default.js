@@ -2,7 +2,7 @@ module.exports = {
   port: process.env.APP_PORT || 3000,
   db: {
     host: process.env.DB_HOST || 'localhost:27017',
-    dbName: process.env.DB_NAME || 'fundraise',
+    dbName: process.env.DB_NAME || 'app',
     user: process.env.DB_USER || 'root',
     pwd: process.env.DB_PWD || 'root'
   },

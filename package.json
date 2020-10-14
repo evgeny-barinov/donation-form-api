@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "config": "^3.3.2",
+    "dotenv": "^8.2.0",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-logger": "^3.2.1",

@@ -1,0 +1,14 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": false
+    },
+    "extends": [
+        "google"
+    ],
+    "plugins": [
+        "mocha"
+    ]
+}

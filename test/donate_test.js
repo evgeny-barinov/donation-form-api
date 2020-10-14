@@ -5,6 +5,7 @@ const assert = require('assert');
 const app = require('../src/app');
 const Donation = require('../src/db/models/donation');
 const _ = require('lodash');
+const mongoose = require('../src/db');
 
 let server;
 const serverPort = 3333;
@@ -36,6 +37,7 @@ describe('Make a donation', async () => {
   });
 
   after(async () => {
+    await mongoose.connection.close();
     await server.close();
   });
 

@@ -14,13 +14,13 @@ function getUrl(path) {
   return `${serverUrl}:${serverPort}/${path}`;
 }
 
-describe('Make a donation', () => {
-  let correctDonation = {
+describe('Make a donation', async () => {
+  const correctDonation = {
     amount: 40,
     currency: "USD"
   };
 
-  let incorrectDonations = [
+  const incorrectDonations = [
     {
       amount: 0,
       currency: "ZAR"

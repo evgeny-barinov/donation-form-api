@@ -10,5 +10,6 @@ module.exports = {
     middlewares: `${__dirname}/../middlewares`,
     routes: `${__dirname}/../routes`,
   },
-  currencies: ['USD', 'EUR', 'GBP', 'RUB']
+  currencies: ['USD', 'EUR', 'GBP', 'RUB'],
+  origin: process.env.ORIGIN || 'http://localhost:8080'
 };

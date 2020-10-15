@@ -28,7 +28,7 @@ const mutations = {
     const newCurrency = currencies[currency];
     const exchangeRate = newCurrency.rate / state.currency.rate;
     if (state.suggestion === -1) {
-      state.amount = Math.ceil(state.amount * exchangeRate);
+      state.amount = Math.round(state.amount * exchangeRate);
     } else {
       state.amount = roundMultiple(state.presets[state.suggestion] * newCurrency.rate);
     }

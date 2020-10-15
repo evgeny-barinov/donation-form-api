@@ -4,19 +4,19 @@
 
 `npm install`
 
-### 1. With MongoDB installed on host
+### 1. With Docker (preferable)
 
-1. Create new `.env` file in the project root (see `.env.sample`);
-2. Put your MongoDB credentials in there;
+1. Get **Docker** installed and running;
+2. Execute `docker-compose up -d --build`;
 3. Execute `npm run start`;
 4. The app is running on `APP_PORT` (3000 by default);
 
 ------
 
-### 2. With Docker
+### 2. With MongoDB installed on host
 
-1. Get **Docker** installed and running;
-2. Execute `docker-compose up -d --build`;
+1. Create new `.env` file in the project root (see `.env.sample`);
+2. Put your MongoDB credentials in there;
 3. Execute `npm run start`;
 4. The app is running on `APP_PORT` (3000 by default);
 

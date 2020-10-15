@@ -18,6 +18,11 @@
 
 -----
 
+### Cross-Origin
+
+By default origin is set up to `http://localhost:8080`
+Just add `ORIGIN` variable into `.env` file if you want to change it.
+
 # Running test
 
 Just execute `npm run test`;

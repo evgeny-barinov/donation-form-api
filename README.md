@@ -1,5 +1,9 @@
 # How to run
 
+### Before running
+
+`npm install`
+
 ### 1. With MongoDB installed on host
 
 1. Create new `.env` file in the project root (see `.env.sample`);

@@ -11,5 +11,6 @@ module.exports = {
     routes: `${__dirname}/../routes`,
   },
   currencies: ['USD', 'EUR', 'GBP', 'RUB'],
-  origin: process.env.ORIGIN || 'http://localhost:8080'
+  origin: process.env.ORIGIN || 'http://localhost:3000',
+  webPath: `${__dirname}/../../public/`
 };
